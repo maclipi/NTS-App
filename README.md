@@ -1,27 +1,24 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+Hi, Please run Following Command  hoping node and typescript is already install in your system if not than consider step number 4 first.
 
-## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+-------------------------------------------
 
-### With the Ionic CLI:
+1 - npm install -g ionic
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+2- npm install
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTutorial tutorial
-```
 
-Then, to run it, cd into `myTutorial` and run:
+--------------------------------------------
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+3- cut server folder and past somewhere else (or run inside that only) (Check for the express,socket.io, ws)
 
-Substitute ios for android if not on a Mac.
 
-# NTS-App
+-----------------------
+
+4 - ionic serve
+
+
+
+
+5 - npm install -g tsc tsc-cli
